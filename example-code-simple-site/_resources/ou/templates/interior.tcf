@@ -16,7 +16,7 @@
 				  autonav="{autonavigation}">interior.tmpl</template>
 	</template-list>
 	<navigation-list>
-		<navigation name="true" path="_nav.inc" group="Everyone" publish="no"><li><a href="{ox_autonav:shorturl}">{title}</a></li></navigation>
-		<navigation name="false" path="_nav.inc" group="Everyone" publish="no"></navigation>
+		<navigation name="true" path="_nav.ounav" group="Everyone" publish="no"><li><a href="{ox_autonav:shorturl}">{title}</a></li></navigation>
+		<navigation name="false" path="_nav.ounav" group="Everyone" publish="no"></navigation>
 	</navigation-list>
 </tcf>

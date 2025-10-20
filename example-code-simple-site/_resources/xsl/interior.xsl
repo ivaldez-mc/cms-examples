@@ -25,7 +25,7 @@ exclude-result-prefixes="ou xsl xs fn ouc">
 			<xsl:if test="$layout = 'two'">
 				<div class="col-md-3">
 					<ul id="sidenav" class="nav nav-pills nav-stacked">
-						<xsl:copy-of select="ou:include-file(concat($dirname,'_nav.inc'))" />
+						<xsl:copy-of select="ou:include-file(concat($dirname,'_nav.ounav'))" />
 					</ul>
 				</div>
 			</xsl:if>
