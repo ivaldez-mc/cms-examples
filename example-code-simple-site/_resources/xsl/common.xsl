@@ -9,10 +9,10 @@ xmlns:fn="http://omniupdate.com/XSL/Functions"
 xmlns:ouc="http://omniupdate.com/XSL/Variables"
 exclude-result-prefixes="xsl xs ou fn ouc">
 	
-	<xsl:import href="variables.xsl"/>
-	<xsl:import href="functions.xsl"/>
-	<xsl:import href="cms-breadcrumb.xsl"/>
-	<xsl:import href="breadcrumb.xsl"/>
+	<xsl:import href="_shared/variables.xsl"/>
+	<xsl:import href="_shared/functions.xsl"/>
+	<xsl:import href="_shared/cms-breadcrumb.xsl"/>
+	<xsl:import href="_shared/breadcrumb.xsl"/>
 	
 	<!-- Default: for HTML5 use below output declaration -->
 	<xsl:output method="html" version="5.0" indent="yes" encoding="UTF-8" include-content-type="no"/>
