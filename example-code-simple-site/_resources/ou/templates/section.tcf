@@ -11,7 +11,6 @@
 	<template-list>
 		<!-- props and navigation files -->
 		<template destination="{directory/}{dirname}" force-destination="yes" publish="no" filename="_nav" extension="ounav" display-filename="no" display-group="no" display-overwrite="no" exclude-sitemap="yes" exclude-search="yes">navigation.tmpl</template>
-		<template destination="{directory/}{dirname}" force-destination="yes" publish="no" filename="_props" extension="pcf" display-filename="no" display-group="no" display-overwrite="no" exclude-sitemap="yes" exclude-search="yes">properties.tmpl</template>
 		<template 
 				  prompt-prefix="Page" 
 				  filename="index" 
