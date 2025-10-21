@@ -11,6 +11,7 @@ exclude-result-prefixes="xsl xs ou fn ouc">
 	
 	<xsl:import href="variables.xsl"/>
 	<xsl:import href="functions.xsl"/>
+	<xsl:import href="cms-breadcrumb.xsl"/>
 	<xsl:import href="breadcrumb.xsl"/>
 	
 	<!-- Default: for HTML5 use below output declaration -->
